@@ -55,8 +55,8 @@ class WeatherPopulatedNew extends ConsumerWidget {
                   Text(
                       '''Last Updated at ${TimeOfDay.fromDateTime(weatherModels.lastUpdated).format(context)}''',
                       style: theme.textTheme
-                          .apply(bodyColor: Colors.white38)
-                          .titleSmall),
+                          //.apply(bodyColor: Colors.white38)
+                          .titleMedium),
                 ],
               ),
             ),
