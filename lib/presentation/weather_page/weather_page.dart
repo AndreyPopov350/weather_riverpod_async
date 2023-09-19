@@ -23,7 +23,7 @@ class WeatherPage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Weather'),
-        backgroundColor: themeColor.withOpacity(0.5),
+        backgroundColor: themeColor,
         elevation: 0,
         actions: [
           IconButton(

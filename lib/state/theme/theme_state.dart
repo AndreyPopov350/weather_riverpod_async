@@ -38,11 +38,11 @@ extension on WeatherModels {
       case WeatherCondition.clear:
         return Colors.orangeAccent;
       case WeatherCondition.snowy:
-        return Colors.lightBlueAccent;
+        return Colors.blueGrey.shade100;
       case WeatherCondition.cloudy:
         return Colors.blue;
       case WeatherCondition.rainy:
-        return Colors.grey;
+        return Colors.blueGrey;
       case WeatherCondition.unknown:
         return ThemeState.defaultColor;
     }
